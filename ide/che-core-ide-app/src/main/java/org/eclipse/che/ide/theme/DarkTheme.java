@@ -17,7 +17,7 @@ import org.eclipse.che.ide.api.theme.Theme;
 @Singleton
 public class DarkTheme implements Theme {
 
-  public static final String DARK_THEME_ID = "DarkTheme";
+  public static final String DARK_THEME_ID = "MorpheusLago";
 
   @Override
   public String getId() {
@@ -26,12 +26,12 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getDescription() {
-    return "Dark Theme";
+    return "MorpheusLago";
   }
 
   @Override
   public String backgroundColor() {
-    return "#21252b";
+    return "#2d97c1";
   }
 
   @Override
@@ -66,7 +66,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String tabsPanelBackground() {
-    return "#33373B";
+    return "#2d97c1";
   }
 
   /**
@@ -194,7 +194,7 @@ public class DarkTheme implements Theme {
    */
   @Override
   public String partBackground() {
-    return "#1e2331";
+    return "#2d97c1";
   }
 
   @Override
@@ -224,7 +224,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getMainFontColor() {
-    return "#a0a9b7";
+    return "#ffffff";
   }
 
   @Override
@@ -234,12 +234,12 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getCommandsToolbarBackgroundColor() {
-    return "#1e2331";
+    return "#2d97c1";
   }
 
   @Override
   public String getCommandsToolbarProcessesLabelBackground() {
-    return "#242a3a";
+    return "#6ca5c1";
   }
 
   @Override
@@ -339,7 +339,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String toolbarControllerLeftColor() {
-    return "#1a1b29";
+    return "#2d97c1";
   }
 
   @Override
@@ -349,7 +349,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getButtonBackground() {
-    return "#313542";
+    return "#2d97c1";
   }
 
   @Override
@@ -474,12 +474,12 @@ public class DarkTheme implements Theme {
 
   @Override
   public String editorPanelBackgroundColor() {
-    return "#191c28";
+    return "#00607b";
   }
 
   @Override
   public String editorTabsBackgroundColor() {
-    return "#1e2331";
+    return "#00607b";
   }
 
   @Override
@@ -654,7 +654,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getWindowContentBackground() {
-    return "#1e2331";
+    return "#06607f";
   }
 
   @Override
@@ -669,22 +669,22 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getWindowHeaderBackground() {
-    return "#242a3a";
+    return "#098db9";
   }
 
   @Override
   public String getWindowHeaderBorderColor() {
-    return "#1b1e2b";
+    return "#098db9";
   }
 
   @Override
   public String getWindowFooterBackground() {
-    return "#242a3a";
+    return "#098db9";
   }
 
   @Override
   public String getWindowFooterBorderColor() {
-    return "#1b1e2b";
+    return "#098db9";
   }
 
   @Override
@@ -724,7 +724,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String consolePanelColor() {
-    return "#313131";
+    return "#2d97c1";
   }
 
   @Override
@@ -734,7 +734,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getCellOddRowColor() {
-    return "#1e2331";
+    return "#2d97c1";
   }
 
   @Override
@@ -764,7 +764,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getMainMenuSelectedBkgColor() {
-    return "#383f53";
+    return "";
   }
 
   @Override
@@ -774,12 +774,12 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getMainMenuFontColor() {
-    return "#e4e4e4";
+    return "#ffffff";
   }
 
   @Override
   public String getMainMenuFontHoverColor() {
-    return "#ffffff";
+    return "";
   }
 
   @Override
@@ -829,7 +829,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getToolbarBackgroundColor() {
-    return "#1e2331";
+    return "#098db9";
   }
 
   @Override
@@ -929,7 +929,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String consolesToolbarBackground() {
-    return "#242A3A";
+    return "#098db9";
   }
 
   @Override
@@ -989,12 +989,12 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getEditorInfoBackgroundColor() {
-    return "#1e2331";
+    return "#00607b";
   }
 
   @Override
   public String editorInfoTextColor() {
-    return "#AAAAAA";
+    return "#FFFFFF";
   }
 
   @Override
@@ -1124,7 +1124,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getMenuBackgroundColor() {
-    return "#242a3a";
+    return "#2d97c1";
   }
 
   @Override
@@ -1134,7 +1134,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String getPanelBackgroundColor() {
-    return "#33373b";
+    return "#2d97c1";
   }
 
   @Override
@@ -1714,12 +1714,12 @@ public class DarkTheme implements Theme {
 
   @Override
   public String gitPanelRepositoryChangesLabelColor() {
-    return "#252a38";
+    return "#2d97c1";
   }
 
   @Override
   public String gitPanelRepositoryChangesLabelBackgroundColor() {
-    return "#969fad";
+    return "#2d97c1";
   }
 
   /**
@@ -1768,7 +1768,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String cellTableBackground() {
-    return "#1e2331";
+    return "#2d97c1";
   }
 
   @Override
@@ -1788,7 +1788,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String cellTableOddRowBackground() {
-    return "#1e2331";
+    return "#2d97c1";
   }
 
   @Override
@@ -1823,7 +1823,7 @@ public class DarkTheme implements Theme {
 
   @Override
   public String editorPlaceholderTabsPanelBackground() {
-    return "#1e2331";
+    return "#2d97c1";
   }
 
   @Override
